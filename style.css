@@ -1,0 +1,59 @@
+body {
+    box-sizing: content-box;
+    margin: 20% auto;
+    background-color:rgb(159, 96, 2);
+    width: 200px;
+}
+
+.content {
+    margin-top:40%;
+    display:flex;
+    justify-content: space-between;
+    background: #fff;
+    max-width: 0;
+}
+
+.content * {
+    margin: auto;
+    padding: 0;
+}
+/*
+.inp {
+    background-color: #fff;
+}
+
+.ico {
+    cursor: pointer;
+    background-color: #fff;
+    padding: 10px;
+}
+*/
+input {
+    border: none;
+    transition: 0.3s ease;
+    width: auto;
+    height: auto;
+    padding: 17px!important;
+}
+
+input::placeholder {
+    font-size: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+i {
+    font-size: 20px;
+    background: #fff;
+    margin: 0;
+    padding: 15px!important;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.search {
+    width: 0;
+    padding: 17px 0!important;
+}
