@@ -17,17 +17,7 @@ body {
     margin: auto;
     padding: 0;
 }
-/*
-.inp {
-    background-color: #fff;
-}
 
-.ico {
-    cursor: pointer;
-    background-color: #fff;
-    padding: 10px;
-}
-*/
 input {
     border: none;
     transition: 0.3s ease;
